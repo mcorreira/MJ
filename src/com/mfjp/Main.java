@@ -16,12 +16,15 @@ public class Main { // main class
         int[] numbers = {2, 3, 5, 1, 4};
         Arrays.sort(numbers);
 
+        int [][] numberMat = new int[2][3];
+        numberMat[0][0] = 1;
+        System.out.println(Arrays.deepToString(numberMat));
 
         String message = "Hello World!" + "!!";
 
         //Reference Types
-        Date now = new Date();
-        now.getTime();
-        System.out.println(Arrays.toString(numbers)); //executing print line method, surround textual data with ""
+       // Date now = new Date();
+       // now.getTime();
+       // System.out.println(Arrays.toString(numbers)); //executing print line method, surround textual data with ""
     }
 }
